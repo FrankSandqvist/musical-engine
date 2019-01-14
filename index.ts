@@ -37,6 +37,4 @@ const getWebsite = async (url: string) => {
 
 (async () => {
   const googlesHomepageHtml = await getWebsite("https://google.com");
-
-  console.log(googlesHomepageHtml);
 })();
